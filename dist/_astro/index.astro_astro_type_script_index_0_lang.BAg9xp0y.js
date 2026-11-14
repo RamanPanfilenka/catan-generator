@@ -77,7 +77,7 @@ async function z() {
 }
 document.addEventListener('DOMContentLoaded',()=>{
  const query = new URLSearchParams(location.search).get('minBalance');
- syncTarget(query === null ? 7 : query);
+ syncTarget(query === null ? 5 : query);
  document.getElementById('minBalance').addEventListener('change',e=>syncTarget(e.target.value));
  document.getElementById('minBalanceRange').addEventListener('input',e=>syncTarget(e.target.value));
  document.getElementById('btnStop').addEventListener('click',()=>{stopRequested=true;});
