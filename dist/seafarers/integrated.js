@@ -1,6 +1,6 @@
 import {SCENARIOS,TYPES,RULEBOOK,scenarioForPlayers,preset,adjacency,balance,islands,validateBoard} from './maps.js';
-import {getBaseSettings} from '/_astro/index.astro_astro_type_script_index_0_lang.BAg9xp0y.js';
-document.addEventListener('DOMContentLoaded',()=>{
+import {getBaseSettings} from '/_astro/index.astro_astro_type_script_index_0_lang.BAg9xp0y.js?v=default-balance-5';
+window.addEventListener('DOMContentLoaded',()=>{
 const aliases={sfMinBalance:'minBalance',sfBalanceRange:'minBalanceRange',sfTarget:'targetReadout',sfStatus:'searchStatus',sfStop:'btnStop',sfGenerate:'btnGenerate',sfShare:'btnShare'};
 const $=id=>document.getElementById(aliases[id]||id);
 let active=false;
